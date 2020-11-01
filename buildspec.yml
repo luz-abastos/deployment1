@@ -4,7 +4,7 @@ phases:
      runtime-versions:
         php: 7.3
      comands:
-     -composer install
+     - composer install
    build:
      commands:
-       -./vendor/bin/phpunit tests
+       - ./vendor/bin/phpunit tests
