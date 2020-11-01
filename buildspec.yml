@@ -3,7 +3,7 @@ phases:
   install:
      runtime-versions:
         php: 7.3
-     comands:
+     commands:
      - composer install
    build:
      commands:
